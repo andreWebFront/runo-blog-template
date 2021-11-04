@@ -6,29 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Runo Minimal Blog Template</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img/logo.jpg" alt="Logotype">
-        </div>
-        <!-- /.logo -->
-        <nav>
-            <ul>
-                <li class="header-primary__menu"><a href="#home">Home</a></li>
-                <li class="header-primary__menu"><a href="#about">About</a></li>
-                <li class="header-primary__menu"><a href="#articles">Articles</a></li>
-                <li class="header-primary__menu"><a href="#contact us">Contact Us</a></li>
-            </ul>
-            <ul>
-                <li><i><img src="" alt=""></i></li>
-                <li><i><img src="" alt=""></i></li>
-                <li><i><img src="" alt=""></i></li>
-                <li><i><img src="" alt=""></i></li>
-                <li><i><img src="" alt=""></i></li>
-                <li><i><img src="" alt=""></i></li>
-            </ul>
-        </nav>
+       <div class="container">
+        <div class="header-row">
+            <div class="logo">
+                <a href="#home"><img src="img/logo.svg" alt="Logotype"></a>
+            </div>
+            <!-- /.logo -->
+            <nav>
+                <ul>
+                    <li class="header-primary__menu active"><a href="#home">Home</a></li>
+                    <li class="header-primary__menu"><a href="#about">About</a></li>
+                    <li class="header-primary__menu"><a href="#articles">Articles</a></li>
+                    <li class="header-primary__menu"><a href="#contact us">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/facebook.svg" alt="Facebook"></i></li>
+                    <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/twitter.svg" alt="twitter"></i></li>
+                    <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/youtube.svg" alt="Youtube"></i></li>
+                    <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/pinterest.svg" alt="Pinterest"></i></li>
+                    <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/behance.svg" alt="Behance"></i></li>
+                    <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/Search Icon.svg" alt="Search"></i></li>
+                </ul>
+            </nav>
+           </div>
+           <!-- /.header-row -->
+           <div class="header-content__wrap">
+                <div class="header-content">
+                    <div class="tag">Adventure</div>
+                    <!-- /.tag -->
+                    <div class="header-content__title">Richird Norton photorealistic rendering as real photos</div>
+                    <!-- /.header-content__title -->
+                    <div class="header-content__subtitle">
+                        <div class="header-subtitle__date">08.08.2021</div>
+                        <div class="header-subtitle__text">Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</div>
+                    </div>
+                    <!-- /.header-content__subtitle -->
+                </div>
+                <!-- /.header-content -->
+           </div>
+           <!-- /.header-content__wrap -->
+       </div>
+       <!-- /.container -->
     </header>
+
+    <main>
+        <div class="container">
+            <section class="popular-topics">
+                <div class="section-title">
+                    <h2>Popular topics</h2>
+                </div>
+                <div class="tag-sorting__list">
+                    <div class="tag-sorting__item active"><a href="#sorting-list__all">All</a></div>
+                    <div class="tag-sorting__item"><a href="#sorting-list__adventure">Adventure</a></div>
+                    <div class="tag-sorting__item"><a href="#sorting-list__travel">Travel</a></div>
+                    <div class="tag-sorting__item"><a href="#sorting-list__fashion">Fashion</a></div>
+                    <div class="tag-sorting__item"><a href="#sorting-list__technology">Technology</a></div>
+                    <div class="tag-sorting__item"><a href="#sorting-list__branding">Branding</a></div>
+                </div>
+            </section>
+            <!-- /.popular-topics -->
+        </div>
+        <!-- /.container -->
+    </main>
 </body>
 </html>
