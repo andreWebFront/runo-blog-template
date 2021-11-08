@@ -14,7 +14,6 @@
 </head>
 <body>
     <header>
-       <div class="container">
         <div class="header-row">
             <div class="logo">
                 <a href="#home"><img src="img/logo.svg" alt="Logotype"></a>
@@ -22,7 +21,7 @@
             <!-- /.logo -->
             <nav>
                 <ul>
-                    <li class="header-primary__menu active"><a href="#home">Home</a></li>
+                    <li class="header-primary__menu active"><a href="#home"></href>Home</a></li>
                     <li class="header-primary__menu"><a href="#about">About</a></li>
                     <li class="header-primary__menu"><a href="#articles">Articles</a></li>
                     <li class="header-primary__menu"><a href="#contact us">Contact Us</a></li>
@@ -33,11 +32,14 @@
                     <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/youtube.svg" alt="Youtube"></i></li>
                     <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/pinterest.svg" alt="Pinterest"></i></li>
                     <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/behance.svg" alt="Behance"></i></li>
-                    <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/Search Icon.svg" alt="Search"></i></li>
                 </ul>
+                <div class="search">
+                    <li class="header-secondary__menu"><i><img src="img/secondary-nav-items/Search Icon.svg" alt="Search"></i></li>
+                </div>
             </nav>
-           </div>
-           <!-- /.header-row -->
+        </div>
+        <!-- /.header-row -->
+        <div class="container">
            <div class="header-content__wrap">
                 <div class="header-content">
                     <div class="tag">Adventure</div>
@@ -45,7 +47,8 @@
                     <div class="header-content__title">Richird Norton photorealistic rendering as real photos</div>
                     <!-- /.header-content__title -->
                     <div class="header-content__subtitle">
-                        <div class="header-subtitle__date">08.08.2021</div>
+                        <span class="header-subtitle__date">08.08.2021</span>
+                        <span class="header-content__dash"></span>
                         <div class="header-subtitle__text">Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</div>
                     </div>
                     <!-- /.header-content__subtitle -->
@@ -58,23 +61,173 @@
     </header>
 
     <main>
+    <section class="populartopics-blog">
         <div class="container">
-            <section class="popular-topics">
-                <div class="section-title">
-                    <h2>Popular topics</h2>
+            <div class="section-title">
+                <h2>Popular topics</h2>
+            </div>
+            <div class="tag-sorting__list">
+                <div class="tag-sorting__item active"><a href="#sorting-list__all">All</a></div>
+                <div class="tag-sorting__item"><a href="#sorting-list__adventure">Adventure</a></div>
+                <div class="tag-sorting__item"><a href="#sorting-list__travel">Travel</a></div>
+                <div class="tag-sorting__item"><a href="#sorting-list__fashion">Fashion</a></div>
+                <div class="tag-sorting__item"><a href="#sorting-list__technology">Technology</a></div>
+                <div class="tag-sorting__item"><a href="#sorting-list__branding">Branding</a></div>
+                <div class="viewall">
+                    <div class="tag-sorting__item"><a href="@sorting-list__viewall">View All</a></div>
                 </div>
-                <div class="tag-sorting__list">
-                    <div class="tag-sorting__item active"><a href="#sorting-list__all">All</a></div>
-                    <div class="tag-sorting__item"><a href="#sorting-list__adventure">Adventure</a></div>
-                    <div class="tag-sorting__item"><a href="#sorting-list__travel">Travel</a></div>
-                    <div class="tag-sorting__item"><a href="#sorting-list__fashion">Fashion</a></div>
-                    <div class="tag-sorting__item"><a href="#sorting-list__technology">Technology</a></div>
-                    <div class="tag-sorting__item"><a href="#sorting-list__branding">Branding</a></div>
+            </div>
+            <div class="blog-items__row">
+                <div class="blog-item">
+                    <div class="blog-item__img">
+                        <div class="blog-item__tag tag">Adventure</div>
+                        <img src="img/main-blog-items/Blog Image 1.png" alt="Blog Image">
+                    </div>
+                    <div class="blog-item__date">08.08.2021</div>
+                    <div class="blog-item__title">Dream destinations to visit this
+                        year in Paris</div>
+                    <p class="blog-item__text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
                 </div>
-            </section>
-            <!-- /.popular-topics -->
+                <div class="blog-item">
+                    <div class="blog-item__img">
+                        <div class="blog-item__tag tag">Travel</div>
+                        <img src="img/main-blog-items/Blog Image 2.png" alt="Blog Image">
+                    </div>
+                    <div class="blog-item__date">08.08.2021</div>
+                    <div class="blog-item__title">Breathtaking first-person photos
+                        around Europe</div>
+                    <p class="blog-item__text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__img">
+                        <div class="blog-item__tag tag">Technology</div>
+                        <img src="img/main-blog-items/Blog Image 3.png" alt="Blog Image">
+                    </div>
+                    <div class="blog-item__date">08.08.2021</div>
+                    <div class="blog-item__title">What collectors need to know about
+                        authenticity</div>
+                    <p class="blog-item__text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__img">
+                        <div class="blog-item__tag tag">Fashion</div>
+                        <img src="img/main-blog-items/Blog Image 4.png" alt="Blog Image">
+                    </div>
+                    <div class="blog-item__date">08.08.2021</div>
+                    <div class="blog-item__title">Instagram artists with great
+                        photography skills</div>
+                    <p class="blog-item__text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                </div>
+            </div>
+            <div class="blog-items__row">
+                <div class="blog-item">
+                    <div class="blog-item__img">
+                        <div class="blog-item__tag tag">Adventure</div>
+                        <img src="img/main-blog-items/Blog Image 5.png" alt="Blog Image">
+                    </div>
+                    <div class="blog-item__date">08.08.2021</div>
+                    <div class="blog-item__title">Thins to know before visiting
+                        Cave in Germany</div>
+                    <p class="blog-item__text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__img">
+                        <div class="blog-item__tag tag">Fashion</div>
+                        <img src="img/main-blog-items/Blog Image 6.png" alt="Blog Image">
+                    </div>
+                    <div class="blog-item__date">08.08.2021</div>
+                    <div class="blog-item__title">Nina Smith vibrant work collab
+                        with Nike Dunk</div>
+                    <p class="blog-item__text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__img">
+                        <div class="blog-item__tag tag">Technology</div>
+                        <img src="img/main-blog-items/Blog Image 7.png" alt="Blog Image">
+                    </div>
+                    <div class="blog-item__date">08.08.2021</div>
+                    <div class="blog-item__title">Richard Norton photorealistic
+                        rendering as real photos</div>
+                    <p class="blog-item__text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__img">
+                        <div class="blog-item__tag tag">Fashion</div>
+                        <img src="img/main-blog-items/Blog Image 8.png" alt="Blog Image">
+                    </div>
+                    <div class="blog-item__date">08.08.2021</div>
+                    <div class="blog-item__title">25 quality collectors toys inspired
+                        by famous films</div>
+                    <p class="blog-item__text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                </div>
+            </div>
         </div>
-        <!-- /.container -->
+    <!-- /.container -->
+    </section>
+    <!-- /.popular-topics -->
+    <section class="big-post">
+        <div class="big-post__tag tag">Adventure</div>
+        <!-- /.big-post__tag tag -->
+        <div class="big-post__content">
+            <div class="big-post__title">Richird Norton photorealistic <br> rendering as real photos</div>
+            <!-- /.big-post__title -->
+            <div class="big-post__text">Progressively incentivize cooperative systems through technically sound <br> functionalities. The credibly productivate seamless data.</div>
+            <!-- /.big-post__text -->
+        </div>
+        <div class="big-post__dash"></div>
+        <!-- /.big-post__dash -->
+        <div class="big-post__date">08.08.2021</div>
+        <!-- /.big-post__date -->
+    </section>
+    <!-- /.big-post -->
+
+    <section class="editors-pick">
+        <div class="container">
+            <div class="section-title">
+                <h2>Editor’s Pick</h2>
+            </div>
+            <div class="editors-pick__row">
+                <div class="editors-pick__item">
+                        <div class="editors-item__tag tag">Adventure</div>
+                        <img src="img/editors-pick/pick 1.png" alt="">
+                        <div class="editors-item__title">Richird Norton photorealistic rendering as real photos</div>
+                        <div class="editors-item__text">Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</div>
+                </div>
+                <div class="editors-pick__item">
+                    <div class="editors-item__img">                        
+                        <div class="editors-item__tag tag">Travel</div>
+                        <img src="img/editors-pick/pick 2.png" alt="">
+                    </div>
+                    <div class="editors-item__title">Richird Norton photorealistic rendering as real photos</div>
+                    <div class="editors-item__text">Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</div>
+                </div>
+                <div class="editors-pick__item">
+                    <div class="editors-item__img">
+                        <div class="editors-item__tag tag">Fashion</div>
+                        <img src="img/editors-pick/pick 3.png" alt="">
+                    </div>
+                    <div class="editors-item__title">Richird Norton photorealistic rendering as real photos</div>
+                    <div class="editors-item__text">Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</div>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
 </body>
 </html>
