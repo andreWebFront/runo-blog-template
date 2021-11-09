@@ -149,6 +149,7 @@ nav ul:nth-child(2){
 }
 .blog-item__tag, .editors-item__tag{
     position: absolute;
+    z-index: 1;
     color: #fff;
     top: 20px;
     right: 20px;
@@ -198,6 +199,7 @@ nav ul:nth-child(2){
     display: flex;
 }
 .editors-pick__item{
+    z-index: -1;
     margin: 10px;
     position: relative;
     color: var(--light-color);
@@ -208,4 +210,22 @@ nav ul:nth-child(2){
     position: relative;
     border-radius: 5px;
     object-fit: cover;
+}
+.editors-item__content{
+    position: absolute;
+    top: 153px;
+    left: 40px;
+}
+.editors-item__title{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    width: 270px;
+    font-family: 'Lora';
+    padding: 15px 0;
+}
+.editors-item__text{
+    width: 340px;
+    font-family: 'Lora';
+    font-size: 12px;
 }
