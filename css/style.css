@@ -229,3 +229,7 @@ nav ul:nth-child(2){
     font-family: 'Lora';
     font-size: 12px;
 }
+.footer-section{
+    height: 400px;
+    background-color: #212529;
+}
