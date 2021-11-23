@@ -5,6 +5,11 @@
     .header-row{
         width: 100%;
     }
+    .big-post{
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
